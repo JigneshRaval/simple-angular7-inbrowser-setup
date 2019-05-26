@@ -1,24 +1,8 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { Http, HttpModule } from '@angular/http';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {RouterModule} from '@angular/router';
+export class Main {
+    public version = '1'
 
-import { AppComponent }   from './app.component';
+    constructor() {
+        alert(this.version);
+    }
+}
 
-@NgModule({
-	imports: [
-		BrowserModule,
-		HttpModule,
-		FormsModule,
-		ReactiveFormsModule,
-		RouterModule
-	],
-	declarations: [
-		AppComponent
-	],
-	bootstrap: [
-		AppComponent
-	]
-})
-export class AppModule { }

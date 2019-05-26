@@ -1,6 +1,6 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { AppModule } from './app.module';
+import { Main } from './app.module';
 
-const platform = platformBrowserDynamic();
+let test = new Main();
 
-platform.bootstrapModule(AppModule);
+console.log(test);
+
