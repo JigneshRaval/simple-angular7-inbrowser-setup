@@ -36,7 +36,7 @@
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js', */
 
             "crypto": "@empty",
-            'rxjs': 'npm:rxjs',
+            'rxjs': 'rxjs',
             // 'rxjs': 'app/rxjs-5.5.12', // Load RxJs from local file system
             // 'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
             // typescript for compilation in the browser with latest version of system.src.js
@@ -95,11 +95,11 @@
                 defaultExtension: 'js'
             },
             rxjs: {
-                main: 'index.js',
+                main: './index.js',
                 defaultExtension: 'js'
             },
             'rxjs/operators': {
-                main: 'index.js',
+                main: './index.js',
                 defaultExtension: 'js'
             },
         },
