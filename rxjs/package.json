@@ -135,7 +135,7 @@
     "tslint-no-unused-expression-chai": "0.0.3",
     "typescript": "^3.0.1",
     "validate-commit-msg": "2.14.0",
-    "webpack": "1.13.1",
+    "webpack": "5.94.0",
     "xmlhttprequest": "1.8.0"
   },
   "engines": {
